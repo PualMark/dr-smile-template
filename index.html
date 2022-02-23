@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dr. Smiles</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="script" href="js/index.js">
+	<script src="js/index.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<script src="js/index.js"></script>
+	<header>
+	<div>
+		<img src="img/logo.png" id="logo" href="#inicio">
+	</div>
+	<input type=checkbox id="show-nav" onclick="showNavbar()">
+		<div class="toggle-container">
+			<label class="toggle" for="show-nav">
+				<div class="toggle-line" id="toggle-line1"></div>
+				<div class="toggle-line" id="toggle-line2"></div>
+			</label>
+		</div>
+	<nav id="desk-nav" class="main-nav">
+		<ul>
+			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#nosotros">Nosotros</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+		</ul>
+	</nav>	
+	</header>
+	<nav id="main-nav" class="main-nav">
+		<ul>
+			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#nosotros">Nosotros</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+		</ul>
+	</nav>
+	<div id="inicio" class="section">
+		<h1 class="title">Dr. Smiles</h1>
+		<content class="inicio-1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.</p>
+			<img src="img/inicio-1.jpg">
+		</content>
+		<content class="inicio-2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.</p>
+			<img src="img/inicio-2.jpeg">
+		</content>
+	</div>
+	<div id="nosotros" class="section">
+		<h2 class="title">Nosotros</h2>
+		<content class="nosotros-1">
+			<p><b>Visión</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.</p><br><br>
+			<p><b>Misión</b><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.</p>
+			<img src="img/nosotros.jpg">
+		</content>
+	</div>
+	<div id="contacto" class="section">
+		<h3 class="title">Contacto</h3>
+		<content class="contacto-1">
+			<p><b>Correo:</b> ejemplo@contacto.com</p>
+		<h3 class="title">Ubicación:</h3>
+		<div class="mapouter" id="mobile-map"><div class="gmap_canvas"><iframe width="350" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:350px;}</style><a href="https://www.embedgooglemap.net">embed google map in wordpress</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:350px;}</style></div></div>
+		<div class="mapouter" id="desk-map"><div class="gmap_canvas"><iframe width="850" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>#desk-map{position:relative;text-align:right;height:500px;width:850px;}</style><a href="https://www.embedgooglemap.net">embed google map in wordpress</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:850px;}</style></div></div>
+		</content>
+	</div>
+</body>
+</html>
